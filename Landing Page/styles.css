@@ -1,0 +1,185 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'century', sans-serif;
+    line-height: 1.3;
+    color: #333;
+    background: orange;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background: black;
+    color: #fff;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    float: auto;
+    font-size: 1.5rem;
+}
+
+header nav {
+    float: right;
+    font-size: 1rem;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header ul li a:hover {
+    color: #dcdcdc;
+    
+}
+
+.hero {
+    background: url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    background: #4CAF50;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 9px 18px black;
+    transition: background 0.3s;
+}
+
+.hero .btn:hover {
+    background: #45a049;
+    
+}
+
+.features {
+    background: grey;
+    padding: 4rem 0;
+    text-align: center;
+    
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.features .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.features .feature-item {
+    flex: 1 1 300px;
+    margin: 0 1rem;
+    padding: 1.5rem;
+    background: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 9px 18px black;
+    transition: transform 0.3s;
+}
+
+.features .feature-item:hover {
+    transform: translateY(-10px);
+}
+
+.features .feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.about, .contact {
+    background: grey;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.about h2, .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: right;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .btn {
+    margin-top: 1rem;
+    background: blue;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    box-shadow: 0 9px 18px black;
+}
+
+form .btn:hover {
+    background: #45a049;
+}
